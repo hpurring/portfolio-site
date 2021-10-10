@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(#5e2bff, #aa90fe);
+}
+
+header {
+    margin: 20px 20px 20px 20px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #c04cfd, #58008a);
+    color: #f7f6c5;
+    display: flex;
+    flex: 1 1 300px;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+header nav {
+    margin: 10px 20px 10px auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #f7f6c5;
+}
+
+.about-me {
+    margin: 20px 20px 20px 20px;
+    background-color:#5e2bff;
+}
+
+.about-me h2 {
+    color: #f7f6c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    float: left;
+    padding: 20px;
+}
+
+.bio {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.bio img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    color: #f7f6c5;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 35px;
+}
+
+.portfolio {
+    margin: 20px 20px 20px 20px;
+    background-color:#5e2bff;
+}
+
+.portfolio h2 {
+    color: #f7f6c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    float: left;
+    padding: 20px;
+}
+
+.connect {
+    margin: 20px 20px 20px 20px;
+    background-color:#5e2bff;
+}
+
+.connect h2 {
+    color: #f7f6c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    float: left;
+    padding: 20px;
+}
+
+footer {
+    margin: 20px 20px 20px 20px;
+    background-color: #fc6dab;
+    color: #58008a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
