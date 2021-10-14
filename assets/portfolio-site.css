@@ -10,6 +10,8 @@ header {
     display: flex;
     flex: 1 1 300px;
     justify-content: space-between;
+    position: sticky; top: 0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .5);
 }
 
 header h1 {
@@ -39,12 +41,12 @@ header nav ul li a {
     color: #f7f6c5;
 }
 
-.about-me {
+#about-me {
     margin: 20px 20px 20px 20px;
     background-color:#5e2bff;
 }
 
-.about-me h2 {
+#about-me h2 {
     color: #f7f6c5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -72,12 +74,14 @@ header nav ul li a {
     margin-left: 35px;
 }
 
-.portfolio {
-    margin: 20px 20px 20px 20px;
+#portfolio {
+    margin: 20px 20px;
     background-color:#5e2bff;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.portfolio h2 {
+#portfolio h2 {
     color: #f7f6c5;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -86,12 +90,38 @@ header nav ul li a {
     padding: 20px;
 }
 
-.connect {
+#portfolio p {
+    color: #f7f6c5;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 35px;
+}
+
+#portfolio img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, .5);
+    transition: all .3s ease-in-out; 
+}
+
+#portfolio img:hover {
+    transform: scale(1.1);
+}
+
+.horiseon, .website {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#connect {
     margin: 20px 20px 20px 20px;
     background-color:#5e2bff;
 }
 
-.connect h2 {
+#connect h2 {
     color: #f7f6c5;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
