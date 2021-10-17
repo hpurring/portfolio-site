@@ -233,7 +233,7 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-.instagram, .email {
+.instagram, .email, .linkedin {
     display: flex;
     flex-direction: column;
     align-items: center;
