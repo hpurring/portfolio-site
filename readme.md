@@ -6,6 +6,8 @@
 ## **Description**
 This project demonstrates how I can build an informative and responsive webpage that describes my professional activity. 
 
+View my page [here](https://hpurring.github.io/portfolio-site/).
+
 
 ![landing page screenshot](assets/photos/portfolio-screenshot.png) 
 
